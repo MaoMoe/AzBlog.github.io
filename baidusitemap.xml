@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://lolio.me/2018/04/21/searchConsole/</loc>
-    <lastmod>2018-04-21T14:28:44.922Z</lastmod>
+    <lastmod>2018-04-21T15:48:19.013Z</lastmod>
     <data>
         <display>
         <title>Hexo获得百度和谷歌收录中出现的问题</title>
@@ -23,14 +23,12 @@
     </url>
 
     
-    
-    
   <url>
     <loc>http://lolio.me/2018/04/21/dns/</loc>
-    <lastmod>2018-04-21T04:39:57.074Z</lastmod>
+    <lastmod>2018-04-21T15:47:05.727Z</lastmod>
     <data>
         <display>
-        <title>DNS流程</title>
+        <title>DNS解析流程</title>
         <pubTime>2018-04-21T04:32:15.000Z</pubTime>
         
         <tag>other</tag>
@@ -44,6 +42,8 @@
     </data>
     </url>
 
+    
+    
     
   <url>
     <loc>http://lolio.me/2018/04/20/hello-world/</loc>
