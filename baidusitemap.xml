@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/04/21/dns/</loc>
+    <lastmod>2018-04-21T04:39:57.074Z</lastmod>
+    <data>
+        <display>
+        <title>DNS流程</title>
+        <pubTime>2018-04-21T04:32:15.000Z</pubTime>
+        
+        <tag>other</tag>
+         
+         
+           
+             
+              <breadCrumb title="笔记" url="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/04/20/hello-world/</loc>
+    <lastmod>2018-04-21T04:35:11.356Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2018-04-20T09:31:56.889Z</pubTime>
+        
+        <tag>other</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/04/20/miss/</loc>
+    <lastmod>2018-04-21T04:35:01.316Z</lastmod>
+    <data>
+        <display>
+        <title>失踪归来~</title>
+        <pubTime>2018-04-20T09:58:47.000Z</pubTime>
+        
+        <tag>other</tag>
+         
+         
+           
+             
+              <breadCrumb title="杂货" url="http://yoursite.com/categories/%E6%9D%82%E8%B4%A7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+</urlset>
