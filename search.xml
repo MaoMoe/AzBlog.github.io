@@ -3,6 +3,27 @@
   
     
     <entry>
+      <title>DNS笔记</title>
+      <link href="/2018/04/21/dns/"/>
+      <url>/2018/04/21/dns/</url>
+      <content type="html"><![CDATA[<h1 id="DNS"><a href="#DNS" class="headerlink" title="DNS"></a>DNS</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p><code>DNS(domain name system)</code> :计算机域名服务器.在<code>internal</code>域名和主机<code>ip地址</code>之间时一一对应的,域名只要时方便记忆,但服务器之间只认识<code>ip地址</code>,他们之间的转换工作称之为域名解析,而要进行域名解析需要专门的域名服务器也就是我们的<code>DNS</code></p><h2 id="解析域名"><a href="#解析域名" class="headerlink" title="解析域名"></a>解析域名</h2><p>举一个例子，<em>zh.wikipedia.org</em>作为一个域名就和IP地址<em>208.80.154.225</em>相对应。DNS就像是一个自动的电话号码簿，我们可以直接拨打wikipedia的名字来代替电话号码（IP地址）。DNS在我们直接呼叫<a href="https://zh.wikipedia.org/wiki/%E7%BD%91%E7%AB%99" target="_blank" rel="noopener">网站</a>的名字以后就会将像<em>zh.wikipedia.org</em>一样便于人类使用的名字转化成像<em>208.80.154.225</em>一样便于机器识别的IP地址。</p><p>DNS查询有两种方式：<strong>递归</strong>和<strong>迭代</strong>。DNS客户端设置使用的DNS服务器一般都是递归服务器，它负责全权处理客户端的DNS查询请求，直到返回最终结果。而DNS服务器之间一般采用迭代查询方式。</p><p>以查询zh.wikipedia.org为例：</p><ul><li>客户端发送查询报文”query zh.wikipedia.org”至DNS服务器，DNS服务器首先检查自身缓存，如果存在记录则直接返回结果。</li><li><p>如果记录老化或不存在，则</p><ol><li>DNS服务器向<a href="https://zh.wikipedia.org/wiki/%E6%A0%B9%E5%9F%9F%E5%90%8D%E4%BC%BA%E6%9C%8D%E5%99%A8" target="_blank" rel="noopener">根域名服务器</a>发送查询报文”query zh.wikipedia.org”，根域名服务器返回.org域的权威域名服务器地址，这一级首先会返回的是<a href="https://zh.wikipedia.org/wiki/%E9%A1%B6%E7%BA%A7%E5%9F%9F%E5%90%8D" target="_blank" rel="noopener">顶级域名</a>的权威域名服务器。</li><li>DNS服务器向.org域的权威域名服务器发送查询报文”query zh.wikipedia.org”，得到.wikipedia.org域的权威域名服务器地址。</li><li>DNS服务器向.wikipedia.org域的权威域名服务器发送查询报文”query zh.wikipedia.org”，得到主机zh的A记录，存入自身缓存并返回给客户端。</li></ol></li></ul><blockquote><p>引用: 域名系统](<a href="https://zh.wikipedia.org/wiki/%E5%9F%9F%E5%90%8D%E7%B3%BB%E7%BB%9F" target="_blank" rel="noopener">https://zh.wikipedia.org/wiki/%E5%9F%9F%E5%90%8D%E7%B3%BB%E7%BB%9F</a>)</p></blockquote>]]></content>
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> other </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>失踪归来~</title>
       <link href="/2018/04/20/miss/"/>
       <url>/2018/04/20/miss/</url>
@@ -10,14 +31,14 @@
       
       <categories>
           
-          <category> other </category>
+          <category> 杂货 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 杂货 </tag>
+            <tag> other </tag>
             
         </tags>
       
@@ -29,6 +50,12 @@
       <url>/2018/04/20/hello-world/</url>
       <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
       
+      
+        <tags>
+            
+            <tag> other </tag>
+            
+        </tags>
       
     </entry>
     
