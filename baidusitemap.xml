@@ -4,8 +4,28 @@
 
     
   <url>
+    <loc>http://lolio.me/2018/04/30/arch-other/</loc>
+    <lastmod>2018-04-30T02:54:12.856Z</lastmod>
+    <data>
+        <display>
+        <title>arch安装后可选配置</title>
+        <pubTime>2018-04-30T02:05:38.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="Arch" url="http://lolio.me/categories/Arch/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://lolio.me/2018/04/29/arch-create/</loc>
-    <lastmod>2018-04-30T02:00:48.428Z</lastmod>
+    <lastmod>2018-04-30T02:17:24.744Z</lastmod>
     <data>
         <display>
         <title>Hyper创建Arch Linux</title>
@@ -16,7 +36,7 @@
          
            
              
-              <breadCrumb title="Arch Linux" url="http://lolio.me/categories/Arch-Linux/"/>
+              <breadCrumb title="Arch" url="http://lolio.me/categories/Arch/"/>
           
         </display>
     </data>
