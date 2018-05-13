@@ -4,12 +4,32 @@
 
     
   <url>
-    <loc>http://lolio.me/2018/04/30/arch-other/</loc>
-    <lastmod>2018-05-01T02:50:01.968Z</lastmod>
+    <loc>http://lolio.me/2018/05/01/ashop_01/</loc>
+    <lastmod>2018-05-13T15:34:10.917Z</lastmod>
     <data>
         <display>
-        <title>arch安装后可选配置</title>
-        <pubTime>2018-04-30T02:05:38.000Z</pubTime>
+        <title>某商城实例</title>
+        <pubTime>2018-05-01T05:52:45.000Z</pubTime>
+        
+        <tag>项目</tag>
+         
+         
+           
+             
+              <breadCrumb title="练习" url="http://lolio.me/categories/%E7%BB%83%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://lolio.me/2018/04/29/arch-create/</loc>
+    <lastmod>2018-05-01T05:36:52.314Z</lastmod>
+    <data>
+        <display>
+        <title>Hyper创建Arch Linux</title>
+        <pubTime>2018-04-29T15:06:17.000Z</pubTime>
         
         <tag>Linux</tag>
          
@@ -24,12 +44,12 @@
 
     
   <url>
-    <loc>http://lolio.me/2018/04/29/arch-create/</loc>
-    <lastmod>2018-05-01T02:48:54.824Z</lastmod>
+    <loc>http://lolio.me/2018/04/30/arch-other/</loc>
+    <lastmod>2018-05-01T05:36:12.752Z</lastmod>
     <data>
         <display>
-        <title>Hyper创建Arch Linux</title>
-        <pubTime>2018-04-29T15:06:17.000Z</pubTime>
+        <title>arch安装后可选配置</title>
+        <pubTime>2018-04-30T02:05:38.000Z</pubTime>
         
         <tag>Linux</tag>
          
