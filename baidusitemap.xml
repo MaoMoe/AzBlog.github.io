@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://lolio.me/2018/05/29/ashop-02/</loc>
+    <lastmod>2018-06-03T05:22:13.108Z</lastmod>
+    <data>
+        <display>
+        <title>某商城实例-02 工程搭建</title>
+        <pubTime>2018-05-29T02:31:25.000Z</pubTime>
+        
+        <tag>项目</tag>
+         
+         
+           
+             
+              <breadCrumb title="练习" url="http://lolio.me/categories/%E7%BB%83%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://lolio.me/2018/06/03/stuDemo1/</loc>
     <lastmod>2018-06-03T03:42:10.532Z</lastmod>
     <data>
@@ -27,26 +47,6 @@
         <display>
         <title>某商城实例-01 工程搭建</title>
         <pubTime>2018-05-13T15:30:45.000Z</pubTime>
-        
-        <tag>项目</tag>
-         
-         
-           
-             
-              <breadCrumb title="练习" url="http://lolio.me/categories/%E7%BB%83%E4%B9%A0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://lolio.me/2018/05/29/ashop-02/</loc>
-    <lastmod>2018-05-29T03:10:31.090Z</lastmod>
-    <data>
-        <display>
-        <title>某商城实例-02 工程搭建</title>
-        <pubTime>2018-05-29T02:31:25.000Z</pubTime>
         
         <tag>项目</tag>
          
