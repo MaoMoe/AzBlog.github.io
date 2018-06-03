@@ -1452,6 +1452,22 @@ img:hover {
   padding: 0.5rem;
   width: 100%;
 }
+#sidebar .author-info .follow-button {
+  text-align: center;
+}
+#sidebar .author-info .follow-button a {
+  display: inline-block;
+  margin-top: 0.2rem;
+  padding: 0 1rem;
+  height: 1.6rem;
+  background: #49b1f5;
+  color: #fff;
+  text-decoration: none;
+  line-height: 1.6rem;
+}
+#sidebar .author-info .follow-button a:hover {
+  background: #ff7242;
+}
 #sidebar .author-info.hide {
   display: none;
 }
